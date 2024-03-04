@@ -1,6 +1,6 @@
 {
-  "homepage": "https://arun-portfolio.netlify.app/",
-  "name": "arun-portfolio",
+  "homepage":"https://arunpatwa.github.io/arun-devfolio",
+  "name": "arun-devfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
