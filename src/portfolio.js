@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/arunpatwa",
   linkedin: "https://www.linkedin.com/in/arunpatwa-iit/",
   gmail: "arunpatwa.iit@gmail.com",
-  leetcode : "https://leetcode.com/Sparker_AS/",
+  leetcode: "https://leetcode.com/Sparker_AS/",
   // medium: "https://medium.com/@arunspatwa.14",
   // gitlab: "https://gitlab.com/https://gitlab.com/arunpatwa1",
   // facebook: "https://www.facebook.com/arun.patwa.583",
@@ -54,72 +54,65 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: " FULL STACK | AI-ML | DEEP LEARNING 🚀 WANTS TO EXPLORE TECH STACK",
+  subTitle:
+    " FULL STACK | AI-ML | DEEP LEARNING 🚀 WANTS TO EXPLORE TECH STACK",
   skills: [
+    emoji("⚡ Developed Web Applications and Machine Learning Projects"),
     emoji(
-      "⚡ Developed Web Applications and Machine Learning Projects"
-      ),
-      emoji("⚡ Data Strucutre Algorithm: 750+ Problems Solved, Knight on Leetcode 1890 Rating with 20 Badge & 380 days streak"),
-    emoji(
-      "⚡ Exploring DevOps Knows Docker and learning Jenkins"
-    )
+      "⚡ Data Strucutre Algorithm: 750+ Problems Solved, Knight on Leetcode 1890 Rating with 20 Badge & 380 days streak"
+    ),
+    emoji("⚡ Exploring DevOps Knows Docker and learning Jenkins")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-
     {
       skillName: "C++",
       fizz_icon: "icon-cplusplus",
-      color:"cyan"
-
+      color: "cyan"
     },
 
     {
       skillName: "Python",
       fizz_icon: "icon-python",
-      color:"green"
-
+      color: "green"
     },
     {
       skillName: "JavaScript",
       fizz_icon: "icon-javascript-alt",
-      color:"red"
+      color: "red"
     },
     {
       skillName: "Reactjs",
       fizz_icon: "icon-reactjs",
-      color:"cyan"
+      color: "cyan"
     },
     {
       skillName: "Nodejs",
       fizz_icon: "icon-nodejs",
-      color:"green"
+      color: "green"
     },
     {
       skillName: "HTML",
       fizz_icon: "icon-html5-alt",
-      color:"orange"
-
+      color: "orange"
     },
     {
       skillName: "CSS",
       fizz_icon: "icon-css3-alt",
       color: "maroon"
-    
     },
     {
       skillName: "Mongodb",
       fizz_icon: "icon-mongodb",
-      color:"green",
-    
+      color: "green"
     },
     {
       skillName: "SQL:-Database",
       fizz_icon: "icon-mysql-alt",
-      color:"cyan"
+      color: "cyan"
     },
     // {
     //   skillName: "Redis:-Database",
@@ -129,14 +122,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Firebase",
       fizz_icon: "icon-fire-alt",
-      color:"orange"
+      color: "orange"
     },
- 
+
     {
       skillName: "Docker",
       fizz_icon: "icon-docker",
-      color:"cyan"
-    },
+      color: "cyan"
+    }
     // {
     //   skillName: "Jenkins",
     //   fontAwesomeClassname: "fab fa-jenkins",
@@ -154,7 +147,8 @@ const educationInfo = {
     {
       schoolName: "Indian Institute Of Technology, Mandi (IIT Mandi)",
       logo: require("./assets/images/iitmandi.jpg"),
-      subHeader: "Major in Electrical and Minor in Computer Science Engineering",
+      subHeader:
+        "Major in Electrical and Minor in Computer Science Engineering",
       duration: "Oct 2020 - May 2024",
       desc: "Volunteered in Publicity Team for Xpecto - IIT Mandi Technical Fest ",
       descBullets: [
@@ -209,7 +203,8 @@ const workExperiences = {
         `AI-Generated Personalized Cold-Email: Implemented with web
         scraping to gather targeted user data, utilized the Langchain
         framework.
-        `,`Utilized OCR technology to extract information from images and
+        `,
+        `Utilized OCR technology to extract information from images and
         PDFs, converting it into text and verifying for KYC authentication. specialized in
         handling documents such as Aadhar, PAN, voter cards, and passports`
       ]
@@ -220,7 +215,7 @@ const workExperiences = {
       companylogo: require("./assets/images/willingsLogo.jpeg"),
       date: "April 2023 – June 2023",
       desc: "Tech Used: JavaScript, ReactJS, Firebase",
-      descBullets:[
+      descBullets: [
         `Contributed to galk portal, recruitment site and introduced an
         automated interview scheduling feature.
         `,
@@ -228,7 +223,7 @@ const workExperiences = {
         the company resulting in smoother interview scheduling process and 
         reducing waiting time.`
       ]
-    },
+    }
   ]
 };
 
@@ -236,7 +231,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile:"true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -246,11 +241,11 @@ const bigProjects = {
   title: "🛠️ Projects 👨‍💻 ",
   subtitle: "Own Personal Project and Company/Startup Where I have worked",
   projects: [
-   
     {
       image: require("./assets/images/connect-it.gif"),
       projectName: "ConnectIt:Chat and Video Calls",
-      projectDesc: "Developed a online meeting platform for chatting, creating chat rooms and joining calls.Implemented with feature of collaborative work virtual whiteboard and allowing note-taking during meeting.The whiteboard and notes can be downloaded",
+      projectDesc:
+        "Developed a online meeting platform for chatting, creating chat rooms and joining calls.Implemented with feature of collaborative work virtual whiteboard and allowing note-taking during meeting.The whiteboard and notes can be downloaded",
       footerLink: [
         {
           name: "Demo",
@@ -262,12 +257,12 @@ const bigProjects = {
         }
       ]
     },
-   
-   
+
     {
       image: require("./assets/images/pathfinding.gif"),
       projectName: "Path Finding Visualizer",
-      projectDesc: "Designed Web Application showcasing working Visualization of Djikstra’s Algorithm, Breadth First Search (BFS), and Depth First Search (DFS). Implemented algorithms used in finding the shortest path between metro stations, Network Routing Protocols(BGP)",
+      projectDesc:
+        "Designed Web Application showcasing working Visualization of Djikstra’s Algorithm, Breadth First Search (BFS), and Depth First Search (DFS). Implemented algorithms used in finding the shortest path between metro stations, Network Routing Protocols(BGP)",
       footerLink: [
         {
           name: "Demo",
@@ -280,7 +275,7 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    
+
     {
       image: require("./assets/images/salesDash.png"),
       projectName: "SalesDash",
@@ -288,7 +283,7 @@ const bigProjects = {
       and MongoDB. Utilized bar, pie, and line graphs to illustrate detailed
       revenue and client statistics.
       • Integrated efficient CRUD operations on customer data through the
-      API for streamlined data management and updates.`,   
+      API for streamlined data management and updates.`,
       footerLink: [
         {
           name: "Demo",
@@ -323,7 +318,8 @@ const bigProjects = {
       with recommendation. Implemented responsive design and integrated
       Firebase to seamlessly store data, handle Google authentication, and
       provide real-time updates to the application.
-      `,     footerLink: [
+      `,
+      footerLink: [
         {
           name: "Demo",
           url: "https://disneyplus-arun.netlify.app//"
@@ -337,7 +333,8 @@ const bigProjects = {
     {
       image: require("./assets/images/cinematic_engineer.jpg"),
       projectName: "Cinematic-Engineer",
-      projectDesc: "Created Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie also provides details such as overview, genre, rating, runtime, top cast and recommended movies",
+      projectDesc:
+        "Created Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie also provides details such as overview, genre, rating, runtime, top cast and recommended movies",
       footerLink: [
         {
           name: "Demo",
@@ -352,7 +349,8 @@ const bigProjects = {
     {
       image: require("./assets/images/textsummarizer.png"),
       projectName: "Text Summarizer",
-      projectDesc: "Developed Text-Summarizer which helps to convert the long text into a summarized, short, meaning-full text.It can show the summary as per the desired word count given to it.Implemented by using Hugging-face NLP Summarisation API" ,
+      projectDesc:
+        "Developed Text-Summarizer which helps to convert the long text into a summarized, short, meaning-full text.It can show the summary as per the desired word count given to it.Implemented by using Hugging-face NLP Summarisation API",
       footerLink: [
         {
           name: "Demo",
@@ -379,8 +377,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Leetcode Rating 1890 🎯 (Knight)  ",
-      subtitle:
-        `🚀 Streak of 390 Days and Ranks Under 4.3% Of Global Users  
+      subtitle: `🚀 Streak of 390 Days and Ranks Under 4.3% Of Global Users  
         🧿 Rank 323 /21263 Weekly Contest 364
         🏅 Recieved Total 20 Badges 
 
@@ -391,7 +388,7 @@ in Leetcode`,
         {
           name: "Leetcode Profile",
           url: "https://leetcode.com/Sparker_AS"
-        },
+        }
       ]
     },
     {
@@ -410,11 +407,15 @@ in Leetcode`,
 
     {
       title: "Bits and Bites Of Computer Networking Web",
-      subtitle: "Completed Certifcation from Coursera on the Understanding of Networking",
+      subtitle:
+        "Completed Certifcation from Coursera on the Understanding of Networking",
       image: require("./assets/images/courseraLogo.webp"),
       imageAlt: "Coursera Logo",
       footerLink: [
-        {name: "Certification", url: "https://coursera.org/share/f04c3c425538e07f33eb95d6837bfd59"},
+        {
+          name: "Certification",
+          url: "https://coursera.org/share/f04c3c425538e07f33eb95d6837bfd59"
+        }
       ]
     }
   ],
@@ -432,14 +433,12 @@ const blogSection = {
     {
       url: "",
       title: "",
-      description:
-        ""
+      description: ""
     },
     {
       url: "",
       title: "",
-      description:
-        ""
+      description: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -449,9 +448,7 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    " "
-  ),
+  subtitle: emoji(" "),
 
   talks: [
     {
@@ -471,9 +468,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
