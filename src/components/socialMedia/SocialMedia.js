@@ -1,7 +1,7 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
-import LeetcodeLogo from "../../assets/images/leetcodeLogo.webp"
+import LeetcodeLogo from "../../assets/images/leetcodeLogo.webp";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -45,17 +45,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-{socialMediaLinks.leetcode ? (
-  
+      {socialMediaLinks.leetcode ? (
         <a
           href={socialMediaLinks.leetcode}
           className="icon-button"
           target="_blank"
           rel="noopener noreferrer"
         >
-        <img src={LeetcodeLogo} style={{width:45 , marginBottom:-10}}></img>
-          
-        
+          <img
+            src={LeetcodeLogo}
+            alt="leetcodeLogo"
+            style={{width: 45, marginBottom: -10}}
+          ></img>
         </a>
       ) : null}
 
@@ -118,7 +119,6 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-
 
       {socialMediaLinks.kaggle ? (
         <a

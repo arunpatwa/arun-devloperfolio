@@ -23,10 +23,10 @@ const greeting = {
   username: "Arun Patwa",
   title: "Hi, I'm Arun",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer  and AI-ML/Data Science Enthusiastic 🚀 having an experience of building Web applications with JavaScript, Reactjs, Nodejs and some other cool libraries and frameworks."
+    "A Passionate Full Stack Software Developer &  AI-ML Enthusiastic 🚀. Currently looking for an opportunity to utilize my technical skills in a challenging working environment and become a valuable asset to the organization."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1np8-SXU9scLl9v5PrfJw7jFLPshXZc7u/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1_ZeA-bDIVX5QjfGO7eqnmcv7h4YrrUin/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,13 +37,13 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/arunpatwa-iit/",
   gmail: "arunpatwa.iit@gmail.com",
   leetcode : "https://leetcode.com/Sparker_AS/",
-  medium: "https://medium.com/@arunspatwa.14",
+  // medium: "https://medium.com/@arunspatwa.14",
   // gitlab: "https://gitlab.com/https://gitlab.com/arunpatwa1",
-  facebook: "https://www.facebook.com/arun.patwa.583",
+  // facebook: "https://www.facebook.com/arun.patwa.583",
   // stackoverflow: "https://stackoverflow.com/users/19699835/arun-patwa",
-  qwiklabs : "https://www.cloudskillsboost.google/public_profiles/48810fe0-70af-47a2-acec-1c76c9bbdde0",
+  // qwiklabs : "https://www.cloudskillsboost.google/public_profiles/48810fe0-70af-47a2-acec-1c76c9bbdde0",
   twitter: "https://twitter.com/ArunSha54513629",
-  instagram:"https://www.instagram.com/as_sparker/",
+  // instagram:"https://www.instagram.com/as_sparker/",
 
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -54,14 +54,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: " FULL STACK | AI-ML | DEEP LEARNING 🚀 WANTS TO EXPLORE TECH STACK",
   skills: [
     emoji(
-      "⚡ Developed Web Applications and done Machine Learning Projects"
-    ),
-    emoji("⚡ Problem Solver , had Solved over 700+ on Leetcode "),
+      "⚡ Developed Web Applications and Machine Learning Projects"
+      ),
+      emoji("⚡ Data Strucutre Algorithm: 750+ Problems Solved, Knight on Leetcode 1890 Rating with 20 Badge & 380 days streak"),
     emoji(
-      "⚡ Exploring the DevOps World ,Knows Docker and Jenkins"
+      "⚡ Exploring DevOps Knows Docker and learning Jenkins"
     )
   ],
 
@@ -84,24 +84,6 @@ https://fontawesome.com/icons?d=gallery */
 
     },
     {
-      skillName: "HTML-5",
-      fizz_icon: "icon-html5-alt",
-      color:"orange"
-
-    },
-    {
-      skillName: "CSS3",
-      fizz_icon: "icon-css3-alt",
-      color: "maroon"
-    
-    },
-    {
-      skillName: "Mongodb",
-      fizz_icon: "icon-mongodb",
-      color:"green",
-    
-    },
-    {
       skillName: "JavaScript",
       fizz_icon: "icon-javascript-alt",
       color:"red"
@@ -117,15 +99,33 @@ https://fontawesome.com/icons?d=gallery */
       color:"green"
     },
     {
+      skillName: "HTML",
+      fizz_icon: "icon-html5-alt",
+      color:"orange"
+
+    },
+    {
+      skillName: "CSS",
+      fizz_icon: "icon-css3-alt",
+      color: "maroon"
+    
+    },
+    {
+      skillName: "Mongodb",
+      fizz_icon: "icon-mongodb",
+      color:"green",
+    
+    },
+    {
       skillName: "SQL:-Database",
       fizz_icon: "icon-mysql-alt",
       color:"cyan"
     },
-    {
-      skillName: "Redis:-Database",
-      fizz_icon: "icon-redis",
-      color:"red"
-    },
+    // {
+    //   skillName: "Redis:-Database",
+    //   fizz_icon: "icon-redis",
+    //   color:"red"
+    // },
     {
       skillName: "Firebase",
       fizz_icon: "icon-fire-alt",
@@ -137,11 +137,11 @@ https://fontawesome.com/icons?d=gallery */
       fizz_icon: "icon-docker",
       color:"cyan"
     },
-    {
-      skillName: "Jenkins",
-      fontAwesomeClassname: "fab fa-jenkins",
-      color:"maroon"
-    }
+    // {
+    //   skillName: "Jenkins",
+    //   fontAwesomeClassname: "fab fa-jenkins",
+    //   color:"maroon"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -200,17 +200,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "AI-ML / Data Science Intern",
-      company: "Blockcubes - Plugseal Innovations  ",
+      role: "SDE Intern ( AI-ML + WebDev )",
+      company: "Plugseal Innovations  ",
       companylogo: require("./assets/images/plugsealLogo.jpeg"),
       date: "Dec 2023 – Feb 2024",
-      desc: "Tech Used: Python, Streamlit, FastAPI, Web Scrapping, OCR, OpenCV, Keras, NLP",
+      desc: "Tech Used: Python,Langchain,FastAPI,Streamlit, Web Scrapping, OCR, OpenCV, Keras, NLP",
       descBullets: [
         `AI-Generated Personalized Cold-Email: Implemented with web
         scraping to gather targeted user data, utilized the Langchain
-        framework resulting in a 20% increase in marketing efficiency,
-        `,` Utilized OCR technology to extract information from images and
-        PDFs, converting it into text and saving in CSV format. Specialized in
+        framework.
+        `,`Utilized OCR technology to extract information from images and
+        PDFs, converting it into text and verifying for KYC authentication. specialized in
         handling documents such as Aadhar, PAN, voter cards, and passports`
       ]
     },
@@ -246,22 +246,7 @@ const bigProjects = {
   title: "🛠️ Projects 👨‍💻 ",
   subtitle: "Own Personal Project and Company/Startup Where I have worked",
   projects: [
-    {
-      image: require("./assets/images/pathfinding.gif"),
-      projectName: "Path Finding Visualizer",
-      projectDesc: "Developed Web Application showcasing working Visualization of Djikstra’s Algorithm, Breadth First Search (BFS), and Depth First Search (DFS). Implemented algorithms used in finding the shortest path between metro stations, Network Routing Protocols(BGP)",
-      footerLink: [
-        {
-          name: "Demo",
-          url: "https://arunpatwa.github.io/path-finding-visualizer/"
-        },
-        {
-          name: "Github Link",
-          url: "https://github.com/arunpatwa/path-finding-visualizer"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
+   
     {
       image: require("./assets/images/connect-it.gif"),
       projectName: "ConnectIt:Chat and Video Calls",
@@ -274,6 +259,78 @@ const bigProjects = {
         {
           name: "Github Link",
           url: "https://github.com/arunpatwa/connect-it"
+        }
+      ]
+    },
+   
+   
+    {
+      image: require("./assets/images/pathfinding.gif"),
+      projectName: "Path Finding Visualizer",
+      projectDesc: "Designed Web Application showcasing working Visualization of Djikstra’s Algorithm, Breadth First Search (BFS), and Depth First Search (DFS). Implemented algorithms used in finding the shortest path between metro stations, Network Routing Protocols(BGP)",
+      footerLink: [
+        {
+          name: "Demo",
+          url: "https://arunpatwa.github.io/path-finding-visualizer/"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/arunpatwa/path-finding-visualizer"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    
+    {
+      image: require("./assets/images/salesDash.png"),
+      projectName: "SalesDash",
+      projectDesc: `Developed a responsive sales management system utilizing Express.js
+      and MongoDB. Utilized bar, pie, and line graphs to illustrate detailed
+      revenue and client statistics.
+      • Integrated efficient CRUD operations on customer data through the
+      API for streamlined data management and updates.`,   
+      footerLink: [
+        {
+          name: "Demo",
+          url: "https://arunpatwa-salesdash.netlify.app/"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/arunpatwa/salesDash"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    // {
+    //   image: require("./assets/images/crowdfunding.png"),
+    //   projectName: "",
+    //   projectDesc: "Created a Fundraiser Platform where user can create campaign, donate by transaction of  Etherium through the Metamask Wallet.• Smart Contract are written using Solidity• Interaction done with the smart Solidity Contract and deployed to the blockchain using ThirdWeb",
+    //     footerLink: [
+    //     {
+    //       name: "Demo",
+    //       url: "https://fundraiser-web3app.netlify.app/"
+    //     },
+    //     {
+    //       name: "Github Link",
+    //       url: "https://github.com/arunpatwa/crowdfunding"
+    //     }
+    //   ]
+    // },
+    {
+      image: require("./assets/images/disneyplus.gif"),
+      projectName: "Disney-Plus-2.0",
+      projectDesc: `Deployed a web application which showcase cartoon movies collection
+      with recommendation. Implemented responsive design and integrated
+      Firebase to seamlessly store data, handle Google authentication, and
+      provide real-time updates to the application.
+      `,     footerLink: [
+        {
+          name: "Demo",
+          url: "https://disneyplus-arun.netlify.app//"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/arunpatwa/disneyplus-clone-arun"
         }
       ]
     },
@@ -304,36 +361,6 @@ const bigProjects = {
         {
           name: "Github Link",
           url: "https://github.com/arunpatwa/Text_Summarizer"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/crowdfunding.png"),
-      projectName: "",
-      projectDesc: "Created a Fundraiser Platform where user can create campaign, donate by transaction of  Etherium through the Metamask Wallet.• Smart Contract are written using Solidity• Interaction done with the smart Solidity Contract and deployed to the blockchain using ThirdWeb",
-        footerLink: [
-        {
-          name: "Demo",
-          url: "https://fundraiser-web3app.netlify.app/"
-        },
-        {
-          name: "Github Link",
-          url: "https://github.com/arunpatwa/crowdfunding"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/disneyplus.gif"),
-      projectName: "Disney-Plus-2.0",
-      projectDesc: "Developed a online meeting platform for chatting, creating chat rooms and joining calls.Implemented with feature of collaborative work virtual whiteboard and allowing note-taking during meeting.The whiteboard and notes can be downloaded",
-      footerLink: [
-        {
-          name: "Demo",
-          url: "https://disneyplus-arun.netlify.app//"
-        },
-        {
-          name: "Github Link",
-          url: "https://github.com/arunpatwa/disneyplus-clone-arun"
         }
       ]
     }
