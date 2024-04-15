@@ -6,7 +6,7 @@ import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 import Button from "../../components/button/Button";
 
-const resumeLink="https://drive.google.com/file/d/1SaGMxznk6jh1MtZxxPsjynnZuwKFgmmP/view?usp=sharing";
+const resumeLink="https://drive.google.com/file/d/1SaGMxznk6jh1MtZxxPsjynnZuwKFgmmP/view?usp=drive_link";
 
 
 export default function GithubProfileCard({prof}) {

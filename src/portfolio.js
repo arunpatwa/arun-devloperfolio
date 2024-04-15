@@ -26,7 +26,7 @@ const greeting = {
     "A Passionate Full Stack Software Developer &  AI-ML Enthusiastic 🚀. Currently looking for an opportunity to utilize my technical skills in a challenging working environment and become a valuable asset to the organization."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1SaGMxznk6jh1MtZxxPsjynnZuwKFgmmP/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1SaGMxznk6jh1MtZxxPsjynnZuwKFgmmP/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
